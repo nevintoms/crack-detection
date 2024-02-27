@@ -1,0 +1,8 @@
+
+path: /tf/notebooks/train-yolov8-custom-dataset-step-by-step-guide/data/  # dataset root dir
+train: ./images  # train images (relative to 'path')
+val: ./images  # val images (relative to 'path')
+
+# Classes
+names:
+  0: hand
